@@ -1,29 +1,39 @@
 .homepage{
     .header{
         background-image: url('../assets/header-bg.png');
-        background-size: contain;
+        // background-size: contain;
         background-position: right top;
         background-repeat: no-repeat;
         background-attachment: inherit;
-        .social-share {
-            padding-top: 25px;
-            ul {
-                margin: 0;
-                padding: 0;
-            }
-            li:first-child {
-                margin-left: 0;
-            }
-            li {
-                display: inline-block;
-                margin-left: 12px;
-            }
-            a {
-                color: #fff;
-                transition: 300ms;
-                -webkit-transition: 300ms;
-                font-size: 18px;
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .header-menu{
+            padding: 50px 0 25px;
+            .social-share {
+                padding-top: 25px;
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    li:first-child {
+                        margin-left: 0;
+                    }
+                    li {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 12px;
+                        color: white;
+                    }
+                }
             }
         }
+       
     }
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
 }
