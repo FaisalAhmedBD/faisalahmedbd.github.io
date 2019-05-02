@@ -1,0 +1,36 @@
+
+.profile-wraper{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    .blog-profile-view{
+        background: #fff;
+        border-radius: 3px;
+        padding: 50px 190px 78px;
+        .blog-profile-view-in {
+            text-align: center;
+            margin: 0px 0px 0px 0px;
+            padding: 100px 0;
+            .profile-image {
+                display: inline-block;
+                width: 200px;
+                height: auto;
+            }
+            .profile-title {
+                margin-top: 40px;
+                font-size: 24px;
+                font-weight: 300;
+            }
+            .profile-short-note, .subtitle-cover .page-leading {
+                font-family: Playfair Display;
+            }
+            .profile-short-note {
+                font-size: 46px;
+                font-weight: 400;
+                letter-spacing: 0.46px;
+                line-height: 1.30;
+                margin: 18px auto 0;
+            }
+        }
+    }
+}

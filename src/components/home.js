@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from './menu'
+import ProfileView from './profileView'
 import '../styles/home.scss'
 
 class Home extends React.Component {
@@ -23,13 +24,6 @@ class Home extends React.Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4 col-sm-6 col-md-8 text-center">
-
-                                        <h1>Hello world!</h1>
-                                    </div>
-                                    <div className="col-xs-4 col-sm-3 col-md-2 text-right">
-                                        <h1>Hello world</h1>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -37,6 +31,7 @@ class Home extends React.Component {
                     </div>
                     <Menu />
                 </div>
+                <ProfileView />
             </div>
 
 
