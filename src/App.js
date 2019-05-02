@@ -1,12 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import { Home } from './components'
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello world</h1>
-     <h2>I am under construction!</h2>
+      <Home />
     </div>
   );
 }
