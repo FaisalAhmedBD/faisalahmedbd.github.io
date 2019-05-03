@@ -1,0 +1,96 @@
+.footer{
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: #000;
+    background-color: #e1e3e2;
+    .widget {
+        word-break: break-word;
+        text-align: left;
+        h3.widget-title {
+            text-transform: none;
+            font-weight: 700;
+            font-size: 18px;
+            margin: 0 0 25px;
+        }
+        .textwidget {
+            padding: 0;
+            .btn.btn-primary{
+                background-color: #000;
+                border-color: #000;
+                color: #fff !important;
+                border-radius: 4px;
+            }
+            
+
+            .info-contact h4 {
+                font-size: 16px;
+                font-weight: 400;
+                margin: 0 0 25px 0;
+            }
+        }
+    }
+
+    .widget_nav_menu ul {
+        padding: 0px;
+    }
+
+    .bottom-widget .widget_nav_menu .menu li {
+        width: 48%;
+        display: inline-block;
+    }
+    .widget_nav_menu ul li {
+        list-style: none;
+    }
+    .bottom-widget .widget_nav_menu .menu li a {
+        padding: 0 0 14px;
+        line-height: 1;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        position: relative;
+        display: inline-block;
+    }
+    .bottom-widget .widget_nav_menu .menu li a:after {
+        content: "";
+        height: 1px;
+        width: 0;
+        background: #000000;
+        position: absolute;
+        left: 0;
+        top: auto;
+        bottom: 7px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+    ul.social-share {
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        .fa {
+            color: black;
+        }
+    }
+    .widget >ul {
+        padding: 0;
+        margin: 0;
+        letter-spacing: 0;
+        list-style: none;
+        .widget .themeum-social-share li {
+            display: inline-block;
+            .bottom-widget .widget .themeum-social-share li a {
+                display: inline-block;
+                font-size: 20px;
+                color: #000000;
+                margin-right: 25px;
+                transition: 400ms;
+                -webkit-transition: 400ms;
+            }
+        }
+    }
+    .copyright-area {
+        margin-top: 12px;
+    }
+}
