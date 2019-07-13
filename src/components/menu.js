@@ -20,7 +20,8 @@ class Menu extends React.Component {
                                     </li>
                                     <li className=" menu-item menu-item-type-post_type menu-item-object-page has-menu-child"><a href="#" rel="noopener noreferrer"><span className="custom-menu-item">About Me</span></a></li>
                                     <li className=" menu-item menu-item-type-post_type menu-item-object-page has-menu-child"><a href="#" rel="noopener noreferrer">Contact Me</a></li>
-                                    <li className=" menu-item menu-item-type-taxonomy menu-item-object-category has-menu-child"><a href="#" rel="noopener noreferrer">Academic Background</a></li>
+                                    <li className=" menu-item menu-item-type-post_type menu-item-object-page has-menu-child"><a href="https://drive.google.com/file/d/1G25jRjrMhHFdSmKNZdN8DwKbqxX3E6GV/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a></li>
+                                     <li className=" menu-item menu-item-type-taxonomy menu-item-object-category has-menu-child"><a href="#" rel="noopener noreferrer">Academic Background</a></li>
                                 </ul>
                             </div>
 
