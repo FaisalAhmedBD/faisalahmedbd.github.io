@@ -16,6 +16,18 @@
                 width: 200px;
                 height: auto;
             }
+            .welcome-message{
+                display:flex;
+                flex-direction: column;
+                padding-top: 30px;
+                font-size: 20px;
+                .introductory{
+                    padding-bottom: 15px;
+                }
+                .message{
+                    word-spacing: 2px;
+                }
+            }
             .profile-title {
                 margin-top: 40px;
                 font-size: 24px;

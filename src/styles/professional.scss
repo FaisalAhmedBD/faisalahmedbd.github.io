@@ -1,23 +1,26 @@
-.academic-background{
+.professional-carrer{
     padding-bottom: 40px;
-    .academy-header{
+    .carrer-header{
         font-size: 25px;
         font-weight: 600;
     }
-    .graduation-wraper{
+    .employment-wraper{
         padding:20px;
         font-size: 20px;
         display: flex;
-        .graduation-period{
+        .employment-period{
             font-weight: 600;
-            min-width: 10%;
+            min-width: 22%;
         }
-        .academic-description{
+        .employment-description{
             padding-left: 20px;
             display: flex;
             flex-direction: column;
-            .grade{
-                font-size: 18px;
+            .tech-desciption{
+                padding: 3px 0px 5px 0px;
+            }
+            .technologies{
+                word-spacing: 5px;
             }
         }
     }

@@ -5,7 +5,7 @@ export default function Academic() {
         <div className="container" id="academic-background">
             <div className="row academic-background">
                 <div className="col-sm-12 ">
-                    <span className="academy-header">Academic Background</span>
+                    <span className="academy-header">Education</span>
                     <div className='graduation-wraper'>
                         <span className="graduation-period">2013-2017</span>
                         <div className="academic-description">

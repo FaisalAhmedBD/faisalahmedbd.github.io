@@ -9,11 +9,11 @@ class ProfileView extends React.Component {
                     <div className="col-sm-12">
                         <div className="blog-profile-view">
                             <div className="blog-profile-view-in">
-                                <img className="profile-image img-responsive" src={Avatar} alt="Profile" title="Profile" />
-                                <h3 className="profile-title">Hello, I am Faisal Ahmed</h3>
-
-                                <div className="profile-short-note">Thank you for hanging around my online Portfolio for awhile.</div>
-                                <div className="profile-short-note" style={{ color: 'red' }}>This site is under construction !</div>
+                                <img className="profile-image img-responsive" src={Avatar} alt="faisal_ahmed" title="Profile" />
+                                <div className="welcome-message">
+                                    <span className="introductory">Hello, I am Faisal Ahmed</span>
+                                    <span className="message">Thank you for hanging-around on my online portfolio</span>
+                                </div>
                             </div>
                         </div>
                     </div>

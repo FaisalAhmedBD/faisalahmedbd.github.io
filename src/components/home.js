@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Menu, ProfileView, Academic, Footer } from './index'
+import { Menu, ProfileView, Professional, Academic, Footer } from './index'
 import '../styles/home.scss'
 
 class Home extends React.Component {
@@ -11,6 +11,7 @@ class Home extends React.Component {
                     <Menu />
                 </div>
                 <ProfileView />
+                <Professional />
                 <Academic />
                 <Footer />
             </div>
