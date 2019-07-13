@@ -6,6 +6,9 @@
         background-repeat: no-repeat;
         background-attachment: inherit;
         min-height: 370px;
+        .main-menu-wrap.sticky-header{
+            padding-top: 150px;
+        }
         .row {
             margin-right: -15px;
             margin-left: -15px;
