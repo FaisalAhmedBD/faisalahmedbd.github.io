@@ -1,0 +1,23 @@
+.academic-background{
+    padding-bottom: 40px;
+    .academy-header{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .graduation-wraper{
+        padding:20px;
+        font-size: 20px;
+        display: flex;
+        .graduation-period{
+            font-weight: 600;
+        }
+        .academic-description{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            .grade{
+                font-size: 18px;
+            }
+        }
+    }
+}
