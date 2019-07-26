@@ -1,0 +1,25 @@
+.tech-skills{
+    padding-bottom: 40px;
+    .skills-header{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .skills-wraper{
+        padding:20px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        .individual-skill{
+            display: flex;
+            padding: 0px 0px 10px 0px;
+            .skill-title{
+                font-weight: 600;
+                min-width: 24%;
+            }
+            .skill-description{
+                word-spacing: 3px;
+            }
+
+        }
+    }
+}
