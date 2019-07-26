@@ -7,7 +7,7 @@ export default function CarrerObjectives() {
                 <div className="col-sm-12 ">
                     <span className="career-header">Career Objectives</span>
                     <div className='objectives-wraper'>
-                        I would like to be part of such organization that provides excellent working environment,does not hesitate to adapt new technology and never minds to think out of the box.
+                        I would like to be part of such organization that provides excellent working environment, does not hesitate to adapt new technology and never minds to think out of the box
                     </div>
                 </div>
             </div>
